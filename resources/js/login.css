@@ -1,0 +1,77 @@
+body {
+    background: #ffffff;
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .login-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* min-height: 100vh; */
+    /* padding-top: 40px; */
+  }
+  
+  .navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 20px 40px; */
+  }
+  
+  /* .nav-list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0;
+    margin: 0;
+  } */
+  
+  /* .logo-text {
+    font-size: 20px;
+    color: #555;
+    font-weight: bold;
+  } */
+  
+  .login-box {
+    background: linear-gradient(to bottom, #e6f9ff, #ffffff);
+    border-radius: 10px;
+    width: 300px;
+    margin-top: 40px;
+  }
+/*   
+  .forget-link {
+    font-size: 0.85rem;
+    color: #007bff;
+    text-decoration: none;
+  } */
+  
+  .forget-link:hover {
+    text-decoration: underline;
+  }
+  
+  .illustration {
+    margin-top: 40px;
+    width: 300px;
+    max-width: 80%;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+    border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  }
+  
+  
+  
+  .nav-right img {
+    height: 30px;
+    margin-left: 15px;
+  }
+    
